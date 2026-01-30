@@ -65,17 +65,12 @@ HTML_TEMPLATE = """
                 <h2>Medicare Part D Prescribers</h2>
                 <div class="sample-questions">
                     <div class="sample-question" onclick="askSample(this)">
-                        <span>Which providers had the highest total Medicare Part D drug costs, and which drugs drove those costs?</span>
+                        <span>Top 5 meds by n of patients, prescribed by Peter Boling?</span>
                     </div>
                     <div class="sample-question" onclick="askSample(this)">
-                        <span>How did generic vs. brand-name prescribing patterns vary by provider specialty?</span>
+                        <span>Top prescribers of Trulicity?</span>
                     </div>
-                    <div class="sample-question" onclick="askSample(this)">
-                        <span>Which drugs had the highest average cost per 30-day fill among Medicare Part D prescribers?</span>
-                    </div>
-                    <div class="sample-question" onclick="askSample(this)">
-                        <span>Are there notable geographic differences in high-cost drug prescribing by providers?</span>
-                    </div>
+
                 </div>
             </div>
         </div>
